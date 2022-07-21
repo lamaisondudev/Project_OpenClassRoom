@@ -44,6 +44,10 @@ header nav ul {
     margin: 0;
 }
 
+img {
+    size: 992px 768px;
+}
+
 header nav ul li {
     padding: 50px 25px;
     border-top: 4px solid transparent;
@@ -232,16 +236,16 @@ h1 {
     text-decoration: none;
 }
 
-.hebergement-list a article .article-content {
+.hebergement-list a article .article-contenue {
     padding: 10px 10px 0px 10px;
 }
 
-.hebergement-list a article .article-content h3,
-.hebergement-list a article .article-content p {
+.hebergement-list a article .article-contenue h3,
+.hebergement-list a article .article-contenue p {
     margin: 6px;
 }
 
-.hebergement-list a article .article-content .price.bold {
+.hebergement-list a article .article-contenue .price.bold {
     font-weight: bold;
 }
 
@@ -289,7 +293,7 @@ h1 {
     width: 35%;
 }
 
-#hebergement .populaire .hebergement-list a article .article-content {
+#hebergement .populaire .hebergement-list a article .article-contenue {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
