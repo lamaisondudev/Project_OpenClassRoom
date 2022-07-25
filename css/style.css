@@ -210,6 +210,7 @@ h1 {
     padding: 6px;
     border-radius: 25px;
     height: 100%;
+    box-shadow: 5px 5px 5px 0px #E2E2E2;
 }
 
 .hebergement-list a article:hover {
@@ -328,7 +329,7 @@ h1 {
 
 .liste-activite .colone article {
     height: 100%;
-    box-shadow: 0px 0px 10px 0px #E0E0E0;
+    box-shadow: 5px 5px 5px 5px #E2E2E2;
     border-radius: 25px;
 }
 
