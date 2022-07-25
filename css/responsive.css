@@ -11,3 +11,21 @@
     width: 100%;
     margin-bottom: 20px;
 }
+
+
+#activite .liste-activite  {
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#activite .liste-activite .colone {
+    width: 48%;
+}
+
+footer {
+    justify-content: space-between;
+}
+
+footer .column {
+    width: auto;
+}

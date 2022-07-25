@@ -298,3 +298,76 @@ h1 {
     justify-content: space-between;
     flex-direction: column;
 }
+
+/* Activité */
+
+#activite {
+    margin-bottom: 60px;
+}
+
+.liste-activite {
+    display: flex;
+    justify-content: space-between;
+    height: 600px;
+}
+
+.liste-activite .colone {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 25px;
+}
+
+.liste-activite .colone article img {
+    width: 100%;
+    height: calc(100% - 67px);
+    object-fit: cover;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.liste-activite .colone article {
+    height: 100%;
+    box-shadow: 0px 0px 10px 0px #E0E0E0;
+    border-radius: 25px;
+}
+
+.liste-activite .colone article h3 {
+    padding: 21px;
+    margin: 0px;
+}
+
+.liste-activite .colone.double article {
+    height: 48%;
+}
+
+/* Footer /*
+/************************************
+*              Footer               *
+************************************/
+
+footer {
+    background-color: var(--grey);
+    margin: 0px -50px;
+    padding: 50px;
+    display: flex;
+}
+
+footer .colone {
+    width: 30%;
+}
+
+footer .colone ul {
+    padding: 0px;
+    list-style-type: none;
+}
+
+footer .colone ul li a {
+    color: black;
+    text-decoration: none;
+    line-height: 35px;
+}
+
+.informations__github {
+    height: 24px;
+}

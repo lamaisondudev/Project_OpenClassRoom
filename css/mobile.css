@@ -56,3 +56,17 @@ header nav ul li {
 #hebergement .marseille .hebergement-list a {
     width: 100%;
 }
+
+#activite .liste-activite .colone {
+    width: 100%;
+}
+
+.liste-activite .colone article,
+.liste-activite .colone.double article {
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+footer {
+    flex-direction: column;
+}
