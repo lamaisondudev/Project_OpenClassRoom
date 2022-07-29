@@ -23,9 +23,9 @@
 }
 
 footer {
-    justify-content: space-between;
+    flex-direction: column;
 }
 
-footer .column {
+footer .colone {
     width: auto;
 }

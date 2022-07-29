@@ -3,7 +3,7 @@
 :root {
     --blue: #0065FC;
     --light-blue: #DEEBFF;
-    --grey: #F2F2F2;
+    --grey: #c2c2c2;
 }
 
 body {
@@ -81,8 +81,8 @@ h1 {
 
 .search-box {
     display: inline-block;
-    border: 1px solid var(--grey);
-    border-radius: 15px;
+    border: 1px solid var(--white);
+    border-radius: 20px;
     width: auto;
 }
 
@@ -128,7 +128,7 @@ h1 {
 #filtre .filtre-box {
     margin: 0px 10px;
     border-radius: 30px;
-    border: 2px solid var(--grey);
+    border: 1px solid var(--grey);
     display: flex;
     align-items: center;
     font-weight: bold;
@@ -172,6 +172,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -5px;
     margin-right: 10px;
 }
 
@@ -187,11 +188,11 @@ h1 {
 }
 
 #hebergement section .container {
-    background-color: var(--grey);
     padding: 20px 20px 10px 20px;
     border-radius: 20px;
     height: calc(100% - 120px);
     box-sizing: content-box;
+    background-color: var(--grey);
 }
 
 .hebergement-list {
@@ -255,6 +256,8 @@ h1 {
 
 #hebergement .marseille {
     width: 60%;
+    background-color: var(--grey);
+    border-radius: 25px;
 }
 
 #hebergement .marseille .subtitle {
@@ -272,6 +275,8 @@ h1 {
 }
 
 #hebergement .populaire {
+    background-color: var(--grey);
+    border-radius: 25px;
     width: 35%;
     position: relative;
 }
@@ -342,10 +347,7 @@ h1 {
     height: 48%;
 }
 
-/* Footer /*
-/************************************
-*              Footer               *
-************************************/
+/* Footer */
 
 footer {
     background-color: var(--grey);
@@ -367,8 +369,4 @@ footer .colone ul li a {
     color: black;
     text-decoration: none;
     line-height: 35px;
-}
-
-.informations__github {
-    height: 24px;
 }
